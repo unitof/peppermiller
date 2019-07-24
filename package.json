@@ -4,7 +4,7 @@
   "description": "Checks if August 11–13, 2019 are sold out at the Reno Peppermill",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./index.js"
   },
   "keywords": [],
   "author": "Jacob Ford",
