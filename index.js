@@ -9,6 +9,7 @@ const puppeteer = require('puppeteer');
     await dialog.dismiss()
   })
   
+  // I believe URL args here are:                                                                                  mddyy;d;ni, where d=days & n=nights
   await page.goto('https://reserve2.peppermillcas.com/cgi-bin/lansaweb?PROCFUN+RN+RESNET+PRN+funcparms+UP(A2560):;;81019;3;02;;;;;;;;;;;;;;;;;;;;?tower=Any')
   
   await page.setViewport({ width: 1402, height: 896 })
